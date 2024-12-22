@@ -1,0 +1,67 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traveloo Travel Blog</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="Logo.PNG">
+</head>
+<body>
+    <header>
+        <nav aria-label="Main Navigation">
+            <div class="logo">
+                <img src="Logo.PNG" alt="Traveloo Logo" class="logo-image">
+                <span class="logo-text">Traveloo</span>
+            </div>
+            <ul>
+                <li><a href="index.html" class="active" aria-current="page">Home</a></li>
+                <li><a href="AboutME.html">About</a></li>
+                <li><a href="ContactME.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section class="featured-destinations">
+            <div class="Headertxt">
+                <h1>Explore Amazing Destinations</h1>
+            </div>
+            <br>            
+            
+            <div class="destination-card">
+                <img src="https://tripjive.com/wp-content/uploads/2024/09/Top-10-Things-to-Do-in-Palawan.jpg" alt="Tropical beach in Palawan with lush greenery" aria-describedby="bali-description">
+                <div class="destination-info">
+                    <h2>Palawan, Philippines</h2>
+                    <p id="bali-description">Known for its natural scenery, including El Nido and Coron.</p>
+                    <button class="read-more" data-destination="Palawan" aria-label="Read more about Bali">Read More</button>
+                </div>
+            </div>
+
+            <div class="destination-card">
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/1d/55/bd/calle-crisologo-vigan.jpg?w=1200&h=-1&s=1" alt="Mountain Landscape">
+                <div class="destination-info">
+                    <h2>Vigan, Philippines</h2>
+                    <p>Vigan, located in the Ilocos Sur province of the Philippines, is a remarkable historic city that stands as a testament to the country's colonial past and architectural heritage. </p>
+                    <button class="read-more" data-destination="Vigan" aria-label="Read more about Bali">Read More</button>
+                </div>
+            </div>
+
+            <div class="destination-card">
+                <img src="https://files01.pna.gov.ph/ograph/2018/10/19/lake-danao-1.jpg" alt="Historic City">
+                <div class="destination-info">
+                    <h2>Lake Danao, Philippines</h2>
+                    <p>Lake Danao, located in Leyte province in the Philippines, is a picturesque freshwater lake nestled in the mountains of Ormoc City.</p>
+                    <button class="read-more" data-destination="Danao" aria-label="Read more about Bali">Read More</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Traveloo Travel Blog. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
